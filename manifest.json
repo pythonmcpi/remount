@@ -1,7 +1,7 @@
 {
-  "name": "Hot remount",
-  "description": "New command to track changes in the plugin and automatic remount it",
-  "author": "Xinos",
-  "version": "1.0.0",
+  "name": "remount",
+  "description": "track plugins and automatically remount on changes or manually remount whenever",
+  "author": "Xinos & slowstab",
+  "version": "1.0.1",
   "license": "MIT"
 }

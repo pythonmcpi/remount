@@ -1,7 +1,6 @@
-# Hot remount
+# remount
 
-<img src="preview/image0.png" width="700px" align="center" alt="Hot remount Preview">
+![preview](preview/image0.png)
 
-New command to track changes in a plugin and automatically remount it
-
-using: `.watch <plugin-id>`
+- `.remount [plugin]` - remounts a plugin
+- `.watch [plugin]` - tracks a plugin and remounts on changes
