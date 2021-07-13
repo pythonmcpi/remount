@@ -53,7 +53,7 @@ module.exports = class Remount extends Plugin {
 
   autocomplete([findId, ...args]) {
     if (args.length) {
-      return;
+      return false;
     }
     return {
       commands: [...powercord.pluginManager.plugins]
