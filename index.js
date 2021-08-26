@@ -57,7 +57,7 @@ module.exports = class Remount extends Plugin {
     }
     return {
       commands: [...powercord.pluginManager.plugins]
-        .filter(([id]) => id.includes(findId))
+        .filter(([id]) => id.toLowerCase().includes(findId.toLowerCase()))
         .map(([id]) => ({ command: id })),
       header: 'plugins list',
     };
