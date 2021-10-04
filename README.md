@@ -1,6 +1,8 @@
-# remount
+# Remount
 
 ![preview](preview/image0.png)
 
-- `.remount [plugin]` - remounts a plugin
-- `.watch [plugin]` - tracks a plugin and remounts on changes
+- `.remount [plugin]` - Remounts a plugin
+- `.watch add [plugin]` - Tracks a plugin and remounts on changes
+- `.watch remove [plugin]` - Stops tracking a plugin
+- `.watch clear` - Stops tracking completely

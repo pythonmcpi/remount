@@ -1,7 +1,7 @@
 {
   "name": "remount",
-  "description": "track plugins and automatically remount on changes or manually remount whenever",
-  "author": "Xinos & slowstab",
-  "version": "1.0.1",
+  "description": "Automatically remounts specified plugins when a change is detected. Also allows you to manually remount plugins.",
+  "author": "Xinos, slowstab, & pipythonmc",
+  "version": "1.1.0",
   "license": "MIT"
 }
